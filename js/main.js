@@ -24,8 +24,7 @@
     container.innerHTML = prefix || ''
     let styleTag = document.querySelector('#styleTag')
     let n = 0
-    //用setTimeout代替setInterval, setTimeout会调用一次结束，为了改变time。
-    // setTimeout比setInterval，更容易控制。
+  
     let id = setTimeout(function run() { //让id是最新的setTimeout
       n += 1
       container.innerHTML = Prism.highlight(code.substring(0, n), Prism.languages.css)
@@ -40,7 +39,7 @@
  
 let code = `
 /*
-* 皮卡丘的皮
+* 皮卡丘的背景
 */
 
 .preview {
