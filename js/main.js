@@ -155,7 +155,6 @@ position: relative;
 .lowerLip-wrapper {
   width: 120px;
   height: 130px;
-  /* background-color: pink; */
   position: absolute;
   left: 50%;
   margin-left: -60px;
